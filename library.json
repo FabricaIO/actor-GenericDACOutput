@@ -1,7 +1,7 @@
 {
 	"name": "actor-GenericDACOutput",
 	"version": "0.5.0",
-	"description": "Controls a GPIO as an analog output with the DAC output",
+	"description": "Controls a GPIO as an analog output via the DAC",
 	"keywords": "Fabrica-IO, actor, output",
 	"repository":
 	{
