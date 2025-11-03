@@ -13,7 +13,6 @@ GenericDACOutput::GenericDACOutput(String Name, int Pin, String configFile) : Ac
 /// @return True on success
 bool GenericDACOutput::begin() {
 	// Set description
-	Description.actionQuantity = 1;
 	Description.type = "output";
 	Description.actions = {{"setvoltage", 0} };
 	// Create settings directory if necessary
